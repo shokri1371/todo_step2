@@ -1,0 +1,42 @@
+html,body{
+    height: 80%;
+    width: 100%;
+    background-color: lightgreen;
+}
+ .row1{
+    text-align: center;
+    font-size:30px;
+ }
+ input[type=text]{
+    text-align: left;
+    width: 50%;
+    height: 15%;
+    font-size: 30px;
+padding: 1%;
+}
+
+.add {
+    padding: 0.7%;
+    background-color: #0080ff;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #0080ff;
+    border-radius: 4px;
+    font-size: 20px;
+}
+add:hover {
+    background-color: gray;
+}
+li {
+    width: 90%;
+    padding: 10px;
+    height: 30%;
+    text-align: left;
+    font-size: 20px; 
+    border: 2px solid black;
+    border-radius: 8px;
+}
+li:hover {
+    background-color: gray;
+}
